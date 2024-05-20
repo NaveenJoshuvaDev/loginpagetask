@@ -1,0 +1,54 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.bg {
+  background-image: url("background-image.jpg"); /* Replace with your image path */
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  max-width: 400px;
+  width: 100%;
+}
+
+.card {
+  border: none;
+}
+
+.card-title {
+  margin-bottom: 1rem;
+}
+
+.btn-google {
+  background-color: #dd4b39;
+  color: white;
+}
+
+.btn-google:hover {
+  background-color: #c23321;
+  color: white;
+}
+
+.footer {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.footer a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
